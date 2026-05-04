@@ -315,15 +315,20 @@ p {
     font-size:13px;
 }
 
-@media (max-width: 992px){
-    .pricing-grid{
-        grid-template-columns:repeat(2, 1fr);
-    }
+@media screen and (min-width: 768px) {
+  .procong-grid {
+    padding: 0 2em;
+  }
+  .column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
 }
-
-@media (max-width: 600px){
-    .pricing-grid{
-        grid-template-columns:1fr;
-    }
-}
-}
+@media screen and (min-width: 992px) {
+  pricing-grid {
+    padding: 1em 3em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
