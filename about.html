@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CoolBreeze - About Us</title>
+
+</head>
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" type="image/x-icon" href="COOLBREEZELOGO.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> About Us</title>
+<body>
+
+<header>
+   <img src="COOLBREEZELOGO.png" alt="icon" style="width: 50px;" height="50px"> <div>CoolBreeze</div>
+  <nav>
+    <a href="group.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="message.html">Inbox</a>
+  </nav>
+</header>
+
+
+ <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+
+<div id="sideMenu" class="side-menu">
+  <span class="close-btn" onclick="toggleMenu()">×</span>
+
+  <form id="serviceForm">
+    <label>First Name:</label>
+    <input type="text" id="firstName" placeholder="Your First Name" required>
+
+    <label>Last Name:</label>
+    <input type="text" id="lastName" placeholder="Your Last Name" required>
+
+    <label>Email:</label>
+    <input type="email" id="email" placeholder="Your Email" required>
+
+    <label>Phone:</label>
+    <input type="text" id="phone" placeholder="Your Phone Number" required>
+
+    <label>Address:</label>
+    <input type="text" id="address" placeholder="Your Address" required>
+
+    <label>Select:</label>
+    <select id="service" required>
+      <option value="" disabled selected>Select a service</option>
+      <option>Installation</option>
+      <option>Cleaning</option>
+      <option>Repair/Troubleshooting</option>
+      <option>Relocation/Installation</option>
+      <option>Drain Cleaning</option>
+      <option>Electrical Fixes</option>
+    </select>
+
+    <label>Message:</label>
+    <textarea id="message" rows="4" placeholder="Write something..." required></textarea>
+
+   <button type="submit">Submit</button>
+
+  </form>
+</div>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Cooling Comfort, <span>Every Day.</span></h1>
+        <p>We provide reliable and energy-efficient air conditioning solutions
+        to keep your space cool and comfortable.</p>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+ <div class="gallery-container">
+        <div class="gallery-card">
+            <img src="1.jpg" alt="Gallery Image 1">
+        </div>
+
+        <div class="gallery-card">
+            <img src="2.jpg" alt="Gallery Image 2">
+        </div>
+
+        <div class="gallery-card">
+            <img src="3.jpg" alt="Gallery Image 3">
+        </div>
+
+        <div class="gallery-card">
+            <img src="4.jpg" alt="Gallery Image 4">
+        </div>
+
+        <div class="gallery-card">
+            <img src="5.jpg" alt="Gallery Image 5">
+        </div>
+
+        <div class="gallery-card">
+            <img src="6.jpg" alt="Gallery Image 6">
+        </div>
+    </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="cards">
+    <div class="card">
+        <h3>Our Mission</h3>
+        <p>Deliver efficient cooling solutions that improve comfort.</p>
+    </div>
+
+    <div class="card">
+        <h3>Our Vision</h3>
+        <p>Be the most trusted air conditioning provider.</p>
+    </div>
+
+    <div class="card">
+        <h3>Our Values</h3>
+        <p>Integrity, innovation, and commitment to excellence.</p>
+    </div>
+
+    <div class="card">
+        <h3>Why Choose Us</h3>
+        <p>We prioritize customer satisfaction with reliable service.</p>
+    </div>
+
+    <div class="card">
+        <h3>Our Promise</h3>
+        <p>Consistent quality and comfort you can depend on.</p>
+    </div>
+</section>
+
+<section class="team-section">
+    <h2>Meet Our Team</h2>
+
+    <div class="team-grid">
+
+        <div class="team-card">
+            <img src="lake.jpg" alt="">
+            <h3>Lake Duncan Cuartero</h3>
+            <h4>Lead Technician</h4>
+        </div>
+
+        <div class="team-card">
+            <img src="chie.jpg" alt="">
+            <h3>Archielle Joice Galido</h3>
+            <h4>Customer Support</h4>
+        </div>
+
+        <div class="team-card">
+            <img src="george.jpg" alt="">
+            <h3>George Ceniedo</h3>
+            <h4>Installer</h4>
+        </div>
+
+        <div class="team-card">
+            <img src="janna.jpg" alt="">
+            <h3>Janna May Abrogar</h3>
+            <h4>Manager</h4>
+        </div>
+
+        <div class="team-card">
+            <img src="lein.jpg" alt="">
+            <h3>Reniel De Juan</h3>
+            <h4>Maintenance</h4>
+        </div>
+
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Let’s Keep You Cool!</h2>
+    <p>Contact us today for reliable service around Rizal and Metro Manila.</p>
+</section>
+
+<footer>
+    <p>© 2026 CoolBreeze | All Rights Reserved</p>
+</footer>
+
+<script src="about.js"></script>
+
+</body>
+</html>

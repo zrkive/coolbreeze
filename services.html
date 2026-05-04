@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoolBreeze - Services</title>
+    <link rel="stylesheet" href="services.css" />
+    <link rel="icon" type="image/x-icon" href="COOLBREEZELOGO.png">  
+</head>
+    <header>
+  <img src="COOLBREEZELOGO.png" alt="icon" style="width: 50px;" height="50px"> <div>CoolBreeze</div>
+  <nav>
+    <a href="group.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="message.html">Inbox</a>
+  </nav>
+</header>
+
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+
+<div id="sideMenu" class="side-menu">
+  <span class="close-btn" onclick="toggleMenu()">×</span>
+
+  <form id="serviceForm">
+    <label>First Name:</label>
+    <input type="text" id="firstName" placeholder="Your First Name" required>
+
+    <label>Last Name:</label>
+    <input type="text" id="lastName" placeholder="Your Last Name" required>
+
+    <label>Email:</label>
+    <input type="email" id="email" placeholder="Your Email" required>
+
+    <label>Phone:</label>
+    <input type="text" id="phone" placeholder="Your Phone Number" required>
+
+    <label>Address:</label>
+    <input type="text" id="address" placeholder="Your Address" required>
+
+    <label>Select:</label>
+    <select id="service" required>
+      <option value="" disabled selected>Select a service</option>
+      <option>Installation</option>
+      <option>Cleaning</option>
+      <option>Repair/Troubleshooting</option>
+      <option>Relocation/Installation</option>
+      <option>Drain Cleaning</option>
+      <option>Electrical Fixes</option>
+    </select>
+
+    <label>Message:</label>
+    <textarea id="message" rows="4" placeholder="Write something..." required></textarea>
+
+   <button type="submit">Submit</button>
+
+  </form>
+</div>
+
+
+
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> CoolBreeze - Services</title>
+    
+    <style>
+   
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    
+
+  </head>
+  <body>
+    <section>
+      <div class="row">
+        <h1 class="section-heading"></h1>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-hammer"></i>
+            </div>
+            <h3>Installation
+            <h5>Safe and professional installation for all aircon types</h5>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-brush"></i>
+            </div>
+            <h3>Cleaning
+              <h5>Deep cleaning to remove dirt and improve cooling efficiency </h5>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-wrench"></i>
+            </div>
+            <h3>Repair & troubleshooting
+              <h5>Fix leaks, noise, and units that are not cooling properly </h5>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-truck-pickup"></i>
+            </div>
+            <h3>Relocation/Installation
+            <h5>Transfer your unit safely to a new location </h5>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-broom"></i>
+            </div>
+            <h3>Drain Cleaning
+            <h5>Prevent water leaks and bad odor issues </h5>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="icon-wrapper">
+              <i class="fas fa-plug"></i>
+            </div>
+            <h3>Electical Fixes
+              <h5>Resolving wiring and power-related problems </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing">
+    <h2>Our Pricing</h2>
+    <p class="subtitle">Transparent rates with no hidden charges</p>
+
+    <div class="pricing-grid">
+
+        
+        <div class="price-card">
+            <h3>Window Type Cleaning</h3>
+            <p class="price">₱500</p>
+            <ul>
+                <li>✔ Basic cleaning</li>
+                <li>✔ Filter wash</li>
+                <li>✔ Cooling check</li>
+                <li>✔ Minor inspection</li>
+            </ul>
+            
+        </div>
+
+        
+        <div class="price-card featured">
+            <h3>Split Type Cleaning</h3>
+            <p class="price">₱1,000 – ₱1,500</p>
+            <ul>
+                <li>✔ Deep cleaning (indoor & outdoor)</li>
+                <li>✔ Drain cleaning</li>
+                <li>✔ Cooling efficiency check</li>
+                <li>✔ Leak inspection</li>
+            </ul>
+            
+        </div>
+
+        
+        <div class="price-card">
+            <h3>General Check-up</h3>
+            <p class="price">₱300</p>
+            <ul>
+                <li>✔ Full system diagnosis</li>
+                <li>✔ Identify issues</li>
+                <li>✔ Repair recommendation</li>
+            </ul>
+            
+        </div>
+
+        
+        <div class="price-card">
+            <h3>Aircon Installation</h3>
+            <p class="price">₱2,500+</p>
+            <ul>
+                <li>✔ Standard installation</li>
+                <li>✔ Secure mounting</li>
+                <li>✔ Basic testing</li>
+            </ul>
+            
+        </div>
+
+        
+        <div class="price-card">
+            <h3>Relocation Service</h3>
+            <p class="price">₱2,000+</p>
+            <ul>
+                <li>✔ Dismantling</li>
+                <li>✔ Safe transfer</li>
+                <li>✔ Reinstallation</li>
+            </ul>
+            
+        </div>
+
+        
+        <div class="price-card">
+            <h3>Freon Refill</h3>
+            <p class="price">₱1,500+</p>
+            <ul>
+                <li>✔ Gas refill</li>
+                <li>✔ Leak check</li>
+                <li>✔ Cooling test</li>
+            </ul>
+    
+        </div>
+
+    </div>
+    <div class="pricing-notes">
+        <p>⚠ Prices may vary depending on unit size and condition.</p>
+        <p>📍 Service available in Rizal and Metro Manila .</p>
+        <p>📞 Contact us now .</p>
+    </div>
+</section>
+
+<script src="services.js"></script>
+  </body>
+</html>
